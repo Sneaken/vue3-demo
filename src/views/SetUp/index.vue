@@ -6,14 +6,16 @@
   </div>
 
   <br>
-  <div>
+  <div class="mb10">
     <props-demo :msg="msg"/>
     <button @click="changeMsg">change msg</button>
   </div>
 
-  <div>
+  <div class="mb10">
     <button @click="logThis">log this</button>
   </div>
+
+  <router-link class="mb10" :to="{name: 'ResponsiveApi'}">Next Course: ResponsiveApi</router-link>
 </template>
 
 <script>
@@ -84,5 +86,4 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
 </style>
