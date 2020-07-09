@@ -40,6 +40,11 @@ const routes = [
         name: 'WatchEffect',
         component: () => import('@/views/ResponsiveApi/WatchEffect'),
       },
+      {
+        path: 'watch',
+        name: 'Watch',
+        component: () => import('@/views/ResponsiveApi/Watch'),
+      },
     ],
   },
 ];
