@@ -35,6 +35,11 @@ const routes = [
         name: 'Readonly',
         component: () => import('@/views/ResponsiveApi/Readonly'),
       },
+      {
+        path: 'watchEffect',
+        name: 'WatchEffect',
+        component: () => import('@/views/ResponsiveApi/WatchEffect'),
+      },
     ],
   },
 ];

@@ -21,6 +21,7 @@ export default {
       { name: 'Ref', label: 'ref' },
       { name: 'Computed', label: 'computed' },
       { name: 'Readonly', label: 'readonly' },
+      { name: 'WatchEffect', label: 'watchEffect' },
     ]);
 
     return { list };
