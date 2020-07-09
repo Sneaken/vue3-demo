@@ -20,6 +20,7 @@ export default {
       { name: 'Reactive', label: 'reactive' },
       { name: 'Ref', label: 'ref' },
       { name: 'Computed', label: 'computed' },
+      { name: 'Readonly', label: 'readonly' },
     ]);
 
     return { list };

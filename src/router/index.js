@@ -30,6 +30,11 @@ const routes = [
         name: 'Computed',
         component: () => import('@/views/ResponsiveApi/Computed'),
       },
+      {
+        path: 'readonly',
+        name: 'Readonly',
+        component: () => import('@/views/ResponsiveApi/Readonly'),
+      },
     ],
   },
 ];
