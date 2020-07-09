@@ -25,6 +25,11 @@ const routes = [
         name: 'Ref',
         component: () => import('@/views/ResponsiveApi/Ref'),
       },
+      {
+        path: 'computed',
+        name: 'Computed',
+        component: () => import('@/views/ResponsiveApi/Computed'),
+      },
     ],
   },
 ];

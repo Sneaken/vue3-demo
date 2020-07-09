@@ -2,7 +2,7 @@
   <nav class="left">
     <ul>
       <li v-for="item in list" :key="item.name">
-        <router-link :to="{ name: item.name }">{{item.label}}</router-link>
+        <router-link :to="{ name: item.name }">{{ item.label }}</router-link>
       </li>
     </ul>
   </nav>
@@ -16,13 +16,11 @@ import { ref } from 'vue';
 export default {
   name: 'ResponsiveApi',
   setup() {
-    const list = ref([{
-      name: 'Reactive',
-      label: 'reactive',
-    }, {
-      name: 'Ref',
-      label: 'ref',
-    }]);
+    const list = ref([
+      { name: 'Reactive', label: 'reactive' },
+      { name: 'Ref', label: 'ref' },
+      { name: 'Computed', label: 'computed' },
+    ]);
 
     return { list };
   },
