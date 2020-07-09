@@ -9,8 +9,9 @@ import { ref, reactive } from 'vue';
 export default {
   name: 'Reactive',
   setup() {
-    // 接收一个普通对象然后返回该普通对象的响应式代理。等同于 2.x 的 Vue.observable()
     const count = ref(0);
+
+    // 接收一个普通对象然后返回该普通对象的响应式代理。等同于 2.x 的 Vue.observable()
     // 当 ref 作为 reactive 对象的 property 被访问或修改时，也将自动解套 value 值，其行为类似普通属性：
     const state = reactive({
       count,
