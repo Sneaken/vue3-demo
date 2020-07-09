@@ -8,6 +8,8 @@
   </nav>
 
   <router-view />
+
+  <router-link class="next" :to="{ name: 'LifeCycle' }">Next Course: life cycle</router-link>
 </template>
 
 <script>
@@ -42,5 +44,10 @@ export default {
     margin: 0;
     padding: 0;
   }
+}
+.next {
+  position: fixed;
+  top: 200px;
+  left: 40px;
 }
 </style>

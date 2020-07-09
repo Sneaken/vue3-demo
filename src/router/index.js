@@ -47,6 +47,11 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/life-cycle',
+    name: 'LifeCycle',
+    component: () => import('@/views/LifeCycle'),
+  },
 ];
 
 const router = createRouter({
