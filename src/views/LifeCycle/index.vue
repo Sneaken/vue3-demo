@@ -39,6 +39,9 @@ export default {
   created() {
     console.log('LifeCycle.vue created');
   },
+  beforeMount() {
+    console.log('LifeCycle.vue beforeMount');
+  },
   mounted() {
     console.log('LifeCycle.vue mounted');
   },
