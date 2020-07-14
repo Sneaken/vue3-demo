@@ -52,6 +52,11 @@ const routes = [
     name: 'LifeCycle',
     component: () => import('@/views/LifeCycle'),
   },
+  {
+    path: '/refs',
+    name: 'Refs',
+    component: () => import('@/views/Refs'),
+  },
 ];
 
 const router = createRouter({
